@@ -1,4 +1,5 @@
 ---
+project_area: "Knowledge Representation & Interoperability"
 layout: post
 title:  "CIDS - Common Impact Data Standard"
 date:   2023-01-01 09:41:09

@@ -1,9 +1,13 @@
 ---
 layout: publications
 title: "Publications"
-permalink: /publications
+permalink: /publications.html
 ---
 <h1 id="publications-section">{{ site.data.ui-text[site.locale].publications | default: "Publications" }}</h1>
+
+Research publications by the lab director and collaborators, including work in AI, computational modeling, ontology engineering, and applications to social systems. The bibliography below is maintained via the existing BibBase feed.
+
+[Explore projects](/projects/) · [Research areas](/research/)
 
 [Invited Talks &#8675;](#invited-talks-section)
 

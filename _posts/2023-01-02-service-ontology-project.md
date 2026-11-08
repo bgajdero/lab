@@ -1,4 +1,5 @@
 ---
+project_area: "Knowledge Representation & Interoperability"
 layout: post
 title:  "Service Ontology"
 date:   2022-10-09 09:41:09

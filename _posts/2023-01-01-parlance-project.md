@@ -1,4 +1,5 @@
 ---
+project_area: "AI & Computational Modeling"
 layout: post
 title:  "PARLANCE - Data Integration Pipeline"
 date:   2023-01-01 09:41:09

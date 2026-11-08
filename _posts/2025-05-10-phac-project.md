@@ -1,4 +1,5 @@
 ---
+project_area: "Applied Data & Public Health"
 layout: post
 title:  "PHAC - Substance Use Monitoring"
 date:   2026-05-10 09:41:09

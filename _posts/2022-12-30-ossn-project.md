@@ -1,4 +1,5 @@
 ---
+project_area: "Knowledge Representation & Interoperability"
 layout: post
 title:  "OSSN - Ontology for Social Service Needs"
 date:   2023-01-01 09:41:09

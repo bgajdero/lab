@@ -1,0 +1,43 @@
+---
+layout: single
+title: "People"
+permalink: /team/
+author_profile: true
+---
+
+<p>The lab is led by Dr. Bart Gajderowicz and works across disciplines and institutions. Research teams are formed around specific projects; collaborators listed here are identified by the corresponding project documentation.</p>
+
+<h2>Lab Director</h2>
+{% assign lead = site.data.team.lab_director %}
+<h3><a href="{{ lead.profile }}">{{ lead.name }}</a></h3>
+<p>{{ lead.position }}<br>
+{{ lead.affiliation }}<br>
+{{ lead.secondary }}</p>
+<p>Research interests include hybrid AI, ontology engineering, knowledge graph integration, computational modeling, and AI-supported decision systems for social and public-sector applications. <a href="mailto:{{ lead.email }}">Contact Dr. Gajderowicz</a>.</p>
+
+<h2>Selected Project Collaborators</h2>
+
+<p>Researchers and practitioners listed below are participants in the <a href="/cja-project/">Community Justice Advocates</a> (CJA) project. Their affiliations refer to the project rather than formal positions in the lab.</p>
+<ul>
+{% for person in site.data.team.cja_collaborators %}
+  <li><strong>{{ person.name }}</strong> — {{ person.affiliation }}</li>
+{% endfor %}
+</ul>
+
+<p>Researchers and practitioners listed below are participants in the <a href="/phac-project/">PHAC Substance Use Monitoring</a> project. Their affiliations refer to the project rather than formal positions in the lab.</p>
+<ul>
+{% for person in site.data.team.phac_collaborators %}
+  <li><strong>{{ person.name }}</strong> — {{ person.affiliation }}</li>
+{% endfor %}
+</ul>
+
+<h2>Students and Research Trainees</h2>
+<p>Student researchers can contribute to projects involving AI reasoning, semantic data integration, modeling, and software systems. Named student profiles will appear here as lab affiliations and publication permissions are confirmed.</p>
+<p>Interested in participating in a project? See <a href="/collaborate/">collaboration and student opportunities</a>.</p>
+
+<h3>Current Students</h3>
+<ul>
+{% for person in site.data.team.cja_students %}
+  <li><strong>{{ person.name }}</strong> — {{ person.affiliation }}</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,40 @@
+# Team information is deliberately limited to people explicitly named in
+# the source site's project pages. These collaborators are not represented as
+# ongoing lab members; update the roster when appointments are confirmed.
+lab_director:
+  name: "Dr. Bart Gajderowicz"
+  position: "Lab Director; Assistant Professor of Practice, School of Computing"
+  affiliation: "Utah State University"
+  secondary: "Adjunct Assistant Professor, University of Toronto"
+  profile: "https://bartg.org/"
+  email: "bart.gajderowicz@usu.edu"
+
+cja_collaborators:
+  - name: "Jayme Walters"
+    affiliation: "Associate Professor, Social Work, USU | Executive Director of the Transforming Communities Institute | CJA Program Founder"
+  - name: "Nathanael Player"
+    affiliation: "Assistant Professor of Professional Practice, Social Work, USU | Director, CJA Program"
+  - name: "Lu Lawrence"
+    affiliation: "USU Instructional Technology & Learning Sciences; Associate Director, Research Development, TCI "
+  - name: "Elsa Perez"
+    affiliation: "Assistant Professor of Translation and Interpretation, World Languages & Cultures, USU"
+
+cja_students:
+  - name: "Shobnom Roksana"
+    affiliation: "PhD Student, School of Computing, USU"
+  - name: "Samuel Gillette"
+    affiliation: "Undergraduate Research Associate, School of Computing, USU"
+
+phac_collaborators:
+  - name: "Pam Kent"
+    affiliation: "Canadian Centre on Substance Use and Addiction"
+  - name: "Vijay Mago"
+    affiliation: "York University"
+  - name: "Mark Fox"
+    affiliation: "University of Toronto"
+  - name: "Andrew Fisher"
+    affiliation: "University of New Brunswick"
+  - name: "Kate Stoysich"
+    affiliation: "Canadian Centre on Substance Use and Addiction"
+  - name: "Chealsea De Moor"
+    affiliation: "Canadian Centre on Substance Use and Addiction"

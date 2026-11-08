@@ -1,0 +1,37 @@
+---
+layout: single
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+<p>Explore research projects and associated collaborations by area. These pages retain the original project descriptions and documentation.</p>
+
+<h2>Knowledge Representation &amp; Interoperability</h2>
+<p>Ontologies, formal semantics, data standards, and making information comparable across systems.</p>
+{% assign project_list = site.posts | where: "project_area", "Knowledge Representation & Interoperability" %}
+<div class="entries-grid">
+{% for post in project_list %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
+
+<h2>AI &amp; Computational Modeling</h2>
+<p>Explainable extraction, knowledge graph integration, agent models, and decision support.</p>
+{% assign project_list = site.posts | where: "project_area", "AI & Computational Modeling" %}
+<div class="entries-grid">
+{% for post in project_list %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
+
+<h2>Applied Data &amp; Public Health</h2>
+<p>Data infrastructure and AI applications for communities, urban systems, and public health.</p>
+{% assign project_list = site.posts | where: "project_area", "Applied Data & Public Health" %}
+<div class="entries-grid">
+{% for post in project_list %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
+
+<p>For project partnerships, student involvement, or access to research outputs, see <a href="/collaborate/">Collaborate</a>.</p>

@@ -1,4 +1,5 @@
 ---
+project_area: "Knowledge Representation & Interoperability"
 layout: post
 title:  "Core Domain Ontology"
 date:   2026-05-26 09:41:09

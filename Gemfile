@@ -7,3 +7,10 @@ gem "webrick", "~> 1.8"
 group :jekyll_plugins do
     gem "jekyll-archives"
 end
+
+gem "csv"
+gem "base64"
+gem "logger"
+gem "bigdecimal"
+gem "liquid", ">= 4.0.4"
+gem "rexml"

@@ -17,17 +17,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home : BartG"
+title                    : "Semantic and Computational Intelligence Modeling Laboratory"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Bart Gajderowicz"
-description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Semantic and Computational Intelligence Modeling Laboratory"
+description              : "Research in semantic intelligence, hybrid AI, knowledge graphs, computational modeling, and socially beneficial decision support."
+url                      : "https://lab.bartg.org" # GitHub Pages custom domain
+baseurl                  : "" # custom domain is served at the root
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "SCIM Lab" # Short display name; edit here if lab branding changes
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -91,8 +91,8 @@ og_image                 : "/assets/img/bartg.png" # Open Graph/Twitter default 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Organization" # Research laboratory
+  name                   : "Semantic and Computational Intelligence Modeling Laboratory"
   links: # An array of links to social media profiles
 
 # Analytics
@@ -107,9 +107,7 @@ analytics:
 author:
   name             : "Dr. Bart Gajderowicz"
   avatar           : "/assets/img/bartg.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 
-    "Asst Prof @ <a style='text-decoration:underline' href=\"https://www.usu.edu/cs\">SoC - USU</a><br/>
-    Asst Prof (Adj) @ <a style='text-decoration:underline' href=\"https://mie.utoronto.ca\">MIE - UofT</a>"
+  bio              : "Lab Director · School of Computing, Utah State University<br/>Adjunct Assistant Professor, University of Toronto"
     
   location         : "Logan, Utah, USA"
   email            :
@@ -118,24 +116,24 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:bart.gajderowicz@usu.edu"
-    - label: "bartg.org"
+    - label: "Personal website"
       icon: "fas fa-fw fa-link"
       url: "https://bartg.org"
-    - label: "CV"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/Bart-Gajderowicz-CV-latest.pdf"
+    - label: "Research projects"
+      icon: "fas fa-fw fa-flask"
+      url: "/projects/"
     - label: "Scholar"
       icon: "fas fa-fw ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=Cl1pzRgAAAAJ"
-    - label: "ORCID"
-      icon: "fas fa-fw ai ai-orcid"
-      url: "https://orcid.org/0000-0001-6201-8781"
-    - label: "@bgajdero"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/bgajdero"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/bartgajderowicz/"
+    # - label: "ORCID"
+    #   icon: "fas fa-fw ai ai-orcid"
+    #   url: "https://orcid.org/0000-0001-6201-8781"
+    # - label: "@bgajdero"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/bgajdero"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/bartgajderowicz/"
 
 # Site Footer
 footer:
@@ -146,7 +144,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bartgajderowicz/"
-    - label: "bartg.org"
+    - label: "Personal website"
       icon: "fas fa-fw fa-link"
       url: "https://bartg.org"
 

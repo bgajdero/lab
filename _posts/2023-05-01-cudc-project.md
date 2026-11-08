@@ -1,4 +1,5 @@
 ---
+project_area: "Applied Data & Public Health"
 layout: post
 title:  "CUDC - Canadian Urban Data Catalogue"
 date:   2023-01-01 09:41:09

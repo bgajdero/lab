@@ -1899,7 +1899,7 @@ webvowl =
 
 
 	function createPropertyMarker( markerContainer, inverse ){
-	  var inverseMarker = appendBasicMarker(markerContainer, inverse);
+	  var inverseMarker = appendBaSCIMarker(markerContainer, inverse);
 	  inverseMarker.attr("refX", -8);
 	  inverseMarker.append("path")
 	    .attr("d", "M0,-8L8,0L0,8L-8,0L0,-8L8,0")
@@ -1909,7 +1909,7 @@ webvowl =
 	}
 
 	function createInverseMarker( markerContainer, property ){
-	  var marker = appendBasicMarker(markerContainer, property);
+	  var marker = appendBaSCIMarker(markerContainer, property);
 	  marker.attr("refX", 8);
 	  marker.append("path")
 	    .attr("d", "M0,-8L8,0L0,8L-8,0L0,-8L8,0")
@@ -1918,7 +1918,7 @@ webvowl =
 	  property.markerElement(marker);
 	}
 
-	function appendBasicMarker( markerContainer, property ){
+	function appendBaSCIMarker( markerContainer, property ){
 	  return markerContainer.append("marker")
 	    .datum(property)
 	    .attr("id", property.markerId())
@@ -12407,7 +12407,7 @@ webvowl =
 	};
 
 	function createPropertyMarker( markerContainer, property ){
-	  var marker = appendBasicMarker(markerContainer, property);
+	  var marker = appendBaSCIMarker(markerContainer, property);
 	  //marker.attr("refX", 12);
 	  var m1X = -12;
 	  var m1Y = 8;
@@ -12426,7 +12426,7 @@ webvowl =
 	  var m1Y = 8;
 	  var m2X = -12;
 	  var m2Y = -8;
-	  var inverseMarker = appendBasicMarker(markerContainer, inverse);
+	  var inverseMarker = appendBaSCIMarker(markerContainer, inverse);
 	  inverseMarker.append("path")
 	  //.attr("d", "M12,-8L0,0L12,8Z")
 	    .attr("d", "M0,0L " + -m1X + "," + -m1Y + "L" + -m2X + "," + -m2Y + "L" + 0 + "," + 0)
@@ -12435,7 +12435,7 @@ webvowl =
 	  inverse.markerElement(inverseMarker);
 	}
 
-	function appendBasicMarker( markerContainer, property ){
+	function appendBaSCIMarker( markerContainer, property ){
 	  return markerContainer.append("marker")
 	    .datum(property)
 	    .attr("id", property.markerId())
