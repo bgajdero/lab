@@ -10,6 +10,12 @@ The **Semantic and Computational Intelligence Modeling Laboratory (SCIM Lab)** s
 
 Our work spans formal semantics, knowledge representation, hybrid and graph-based AI, agent modeling, and decision support. We connect foundational methods with applied research in community services, urban data, impact measurement, and public health.
 
+
+- **Semantic Intelligence** focuses on representing, integrating, and interpreting knowledge through formal semantics, ontologies, knowledge graphs, and symbolic reasoning. It enables AI systems to understand relationships, contextualize information, and reason across diverse sources of knowledge. 
+- **Computational Intelligence** focuses on developing intelligent systems that combine machine learning, computational reasoning, planning, and simulation to analyze complex behaviors and support decision-making.
+
+Together, these approaches enable us to develop **explainable AI-driven models of real-world systems**, integrating structured knowledge with computational methods to represent complex relationships, simulate behaviors, evaluate alternative scenarios, and support transparent, evidence-based decision-making.
+
 ## Research Approach
 
 We work across disciplinary boundaries, combining computer science and engineering methods with insights from social sciences and domain experts. Our projects emphasize usable representations of knowledge, transparent assumptions, and the ability to trace data and model outputs to their sources.
