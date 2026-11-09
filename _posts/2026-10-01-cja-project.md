@@ -24,8 +24,8 @@ From a technical perspective, this involves developing a semantic knowledge mode
 </ul>
 
 <p>Students</p>
-<ul>
-{% for person in site.data.team.cja_students %}
-  <li><strong>{{ person.name }}</strong> — {{ person.affiliation }}</li>
-{% endfor %}
-</ul>
+
+
+<h2>Latest Work</h2>
+
+ConvergeAI 2026, Poster Session: [Using Ontologies to Turn a Social Work Impact Model Into Connected, Comparable Data](https://usu.box.com/v/cja-poster-convergeai-2026)
